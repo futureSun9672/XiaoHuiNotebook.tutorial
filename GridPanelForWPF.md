@@ -1,5 +1,6 @@
 # WPF的Grid面板
 Grid面板的简要笔记
+
 1.margin 是对象和父元素的外边距属性，padding是对象和子元素之间的内边距属性
 2.shareGroup 共享尺寸，需要设置共享组的范围，isShareGroup，后设置尺寸的成员会覆盖前面的尺寸
 3.布局通过Grid.RowDefinitions，Grid.ColumnDefinitions，分行和列，设置行高和列宽时，可以直接设置像素、设置倍数n*，设置Auto三种方式。
